@@ -1,5 +1,5 @@
-# config valid only for current version of Capistrano
 lock '3.6.0'
+# デプロイするアプリケーション名
 set :application, 'AWS_assignment'
 set :repo_url, 'https://github.com/faye0210/AWS_assignment.git'
 set :branch, ENV['BRANCH'] || 'master'
